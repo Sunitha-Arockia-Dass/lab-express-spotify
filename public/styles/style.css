@@ -1,0 +1,122 @@
+/* .bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/images/spotify-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.home-page {
+  background-image: url(/images/spotify-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.home-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; 
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); 
+  padding: 40px; 
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.home-page form input {
+  margin: 10px;
+  padding: 3px;
+  width: 300px;
+}
+.home-page form button {
+  width: 150px;
+  background-color: red;
+  padding: 5px;
+  border-style: none;
+  color: white;
+}
+.artist-search1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.artist-search {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.artist-search img {
+  width: 60%;
+  height: 80%;
+  margin: 30px 50px 0px 50px;
+}
+.artist-search-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-color: grey;
+  margin-left: 50px;
+  color: white;
+}
+.artist-search-content p {
+  margin: 5px;
+}
+.artist-search-content a {
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+/* .heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+.tracks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7b7979;
+  margin: 10px 10px;
+  color: #c9c9c9;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.tracks .left {
+  padding-left: 50px;
+}
+.tracks1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px;
+  border: 1px none grey;
+  background-color: #f9f9f9;
+}
+.tracks1 .left1 {
+  margin-left: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.tracks .right {
+  padding-right: 200px;
+}
+
+.tracks .right {
+  padding-right: 200px;
+}
+
+.tracks1 .right1 {
+  padding-right: 200px;
+}

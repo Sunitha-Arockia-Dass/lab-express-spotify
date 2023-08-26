@@ -1,0 +1,14 @@
+<div class="artist-search1">
+
+  {{#each album}}
+    <div class="artist-search">
+
+      <img src="{{this.images.0.url}}" alt="error" />
+      <div class="artist-search-content">
+        <p>{{this.name}}</p>
+        <a href="/tracks/{{this.id}}">View Tracks</a>
+      </div>
+
+    </div>
+  {{/each}}
+</div>
